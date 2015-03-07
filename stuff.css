@@ -35,14 +35,14 @@ header{
 
 
 header{
-  background: purple;
-  border-color: #6ab43d;
+  background: #500;
+  border-color: #400;
 }
 a {
-  color: #6ab47b;
+  color: #000;
 }
 h1, h2 {
-  color: #abc;
+  color: #999;
 }
 h1{
   font-family: 'Indie-flower', sans-serif;
@@ -80,6 +80,22 @@ nav a{
   padding: 15px 10px;
 }
 /*******************************
+Hello Message. 
+********************************/
+#hello{
+  text-align: center;
+  width: 65%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+#hello p{
+  margin-bottom: 40px;
+
+}
+
+
+/*******************************
 Footer
 ********************************/
 footer{
@@ -97,7 +113,7 @@ footer{
 }
 
 /*******************************
-Page Portfolio
+The Nine
 ********************************/
 #Raaa {
   margin:0;
@@ -109,7 +125,7 @@ Page Portfolio
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: #bdc3c7;
+  color: #400;
 
 }
 #Raaa li a p {
@@ -117,6 +133,10 @@ Page Portfolio
     padding: 5%;
     font-size: 0.75em;
     color: #111;
+
+}
+.scary{
+  font-weight:800;
 
 }
 /*******************************
@@ -157,17 +177,46 @@ Colors.
 ********************************/
 /*site body*/
 body {
-  background-color: #fff;
-  color: #888;
+  background-color: #999;
+  color: #000;
 }
 /*nav link*/
 nav {
-    background: #bad;
+    background: #300;
 }
 nav a, nav a:visited {
   color: #fff;
 }
 /*nav selected*/
 nav a.selected, nav a:hover {
-    color: #000;
+    color: gray;
+}
+/*******************************
+Sign Up
+********************************/
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #500;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 30%;
+  border: 1px solid #000;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 gray inset;
+  margin-right: 20px;
+  float:right;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
 }
