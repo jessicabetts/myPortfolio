@@ -12,7 +12,10 @@ Two Column Layout
   width: 40%;
   float: right;
 }
+#Left{
+margin-left: 8%;
 
+}
 /*******************************
 Portfolio
 ********************************/
@@ -41,15 +44,15 @@ About
     float: right;
     font-size: 1.125em;
     margin-right: 5%;
-    text-align: right;
-    width: 45%;  
+    text-align: center;
+    width: 100%;  
 }
 nav {
-    background: none;
+    background: #300;
     float: left;
     margin-right: 5%;
-    text-align: right;
-    width: 45%;  
+    text-align: center;
+    width: 100%;  
   }
   h1{
     font-size: 2.5em;
@@ -59,5 +62,5 @@ nav {
     margin-bottom: 25px;
   }
   header {
-    border-bottom: 5px solid #ffaaff;
+    border-bottom: 5px solid #000;
   }
