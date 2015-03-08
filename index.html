@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title> Jessica | Front End Developer.</title>
-    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower|Dancing+Script|Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/stuff.css">
     <link rel="stylesheet" href="/responsive.css">
-    
   </head>
   <body>
    <header>
@@ -17,52 +16,53 @@
  </a>
      <nav>
        <ul>
-        <li><a href="index.html" class="selected">Portfolio</a></li> 
+        <li><a href="index.html">Portfolio</a></li> 
          <li><a href="about.html">My Writing</a></li>
-         <li><a href="contact.html">About Me</a></li>
+         <li><a href="contact.html" class="selected">About Me</a></li>
        </ul>
      </nav>
    </header>
-   <body>
-    <section id="hello">
-    <p>Welcome to my site. I'm so glad you've found it. Here, you will find several interesting things including a guide to my extensive writing, some links to show you other websites I've developed and projects I'm working on, and even some fun facts about me. </p>
-    <p>Perhaps you can tell by the way my name is all over this site, but I feel I must mention that I made it myself, by hand. Well, by hands on the keyboard, typing document after document to get this site just how I like it. That being said, if you find any problems with this site please shoot me an email.</p>
-    <p>Speaking of emails, I'll be sending one around to keep everyone up-to-date on the status of my writing, my job, my favorite recipies, and so forth. If you are interested, and if you are that probably means you're my mom because who else would care that much about my ramblings? But if you are, you can submit your email to my list. Put in your email and push that button over there. ----> </p>
-  </section>
-  <section> 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Sign Up Form</title>
-        <link rel="stylesheet" href="/normalize.css">
-        <link rel="stylesheet" href="/stuff.css">
-    </head>
-    <body>
-       
-      <form action="index.html" method="post">
-        <h1>Sign Up</h1>
-        <fieldset>
-          <legend>Sign Up For Newsletter</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_email">      
-          </fieldset>
-        <button type="submit">Sign Up</button>
-      </form>
-      
-    </body>
-</html>
-</section>
-
-   </body>
     <div id="wrapper">
+     <section id="primary"> 
+          <h3>General Information</h3>
+          <p>Hi, my name is Jessica Betts, and here are a few things you might need to know about me:</p>
+          <h3 id="1">Skills</h3>
+          <ul>
+            <li>HTML 5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>Ruby</li>
+            <li>50 WPM</li>
+          
+          </ul>
+          <h3 id="2">Interesting Facts:</h3>
+          <ul> 
+            <li>I live in the Portland, OR metro area.</li>
+            <li>I am looking for work as a Front End Web Developer.</li>
+            <li>I am constantly working towards learning as much as I can about web development.</li>
+            <li>I take an hour every morning just to research the newest news about web development.</li>
+            <li>My favorite color is grey.</li>
+            <li>I have written three books in the Anchient's series:  Dreamcaught, Sociopast, and Charmed</li>
+          </ul>
+      </section>
+      <section id="secondary"> 
+          <h3> Contact Details</h3>
+          <ul class="contact-info">
+            <li class= "phone"><a href="tel:(503)737-8015">Call Me</a></li>
+            <li class= "mail"><a href="mailto:jessicabetts92@gmail.com">Email Me</a></li>
+          </ul> 
+           <h3 id="Left">My Work</h3>
+          <ul class="contact-info">
+            <li class= "link"><a href="https://github.com/jessicabetts">My Github</a></li>
+            <li class= "link"><a href="">Other Works</a></li>
+          </ul> 
+     </section>
         <footer>
         <a href="http://twitter.com/story_teller13"><img src="/Users/macuser/Downloads/img 2/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
          <a href="http://facebook.com/jezziann"><img src="/Users/macuser/Downloads/img/facebook-wrap.png" alt="Facebook Logo"class="social-icon"></a>
-          <p>&copy; 2014 Jessica Betts.</p>
+        
+          <p>&copy; 2015 Jessica Betts.</p>
         </footer>
       </div>
   </body>
 </html>
-
